@@ -5,7 +5,7 @@ Test command:
 pytest -v test/
 ```
 
-Lint command:
+Format/lint/type-check command:
 ```
 pre-commit run --all-files
 ```
