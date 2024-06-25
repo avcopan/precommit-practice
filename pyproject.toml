@@ -19,3 +19,9 @@ mypy = "^1.10.1"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+ignore_missing_imports = true
+disallow_untyped_defs = true
+check_untyped_defs = true
+show_error_codes = true
