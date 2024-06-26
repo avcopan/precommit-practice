@@ -8,6 +8,14 @@
    theory
 ```
 
+```{eval-rst}
+.. toctree::
+   :maxdepth: 1
+   :caption: API documentation:
+
+   greetme
+```
+
 
 # Indices and tables
 
