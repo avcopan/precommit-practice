@@ -14,7 +14,20 @@ release = '0.1.0'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = []
+extensions = [
+    'myst_parser',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.mathjax',
+    'sphinx.ext.intersphinx',
+]
+
+autodoc_default_options = {'members': True}
+autoclass_content = 'class'
+
+intersphinx_mapping = {
+  'python': ('https://docs.python.org/3.12', None),
+  'numpy': ('https://docs.scipy.org/doc/numpy/', None),
+}
 
 templates_path = ['_templates']
 exclude_patterns = []
