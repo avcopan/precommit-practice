@@ -19,7 +19,7 @@ pip install -e .
 ```python
 >>> import greetme
 >>> greetme.do_it("Mike")
-Hey, mike!
+Hey, Mike!
 ```
 
 ## Contributing
