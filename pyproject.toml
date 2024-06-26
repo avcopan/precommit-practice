@@ -4,6 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Andreas Copan <avcopan@gmail.com>"]
 readme = "README.md"
+packages = [{include = "greetme", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -15,6 +16,8 @@ pre-commit = "^3.7.1"
 black = "^24.4.2"
 ruff = "^0.4.10"
 mypy = "^1.10.1"
+sphinx = "^7.3.7"
+myst-parser = "^3.0.1"
 
 [build-system]
 requires = ["poetry-core"]
