@@ -1,11 +1,31 @@
-# Pre-commit Practice
+# URSSI Practice
 
-Test command:
-```
-pytest -v test/
+A simple Hello World library with CI and docs.
+
+## Installation
+
+Remote:
+```bash
+pip install https://github.com/avcopan/urssi-practice
 ```
 
-Format/lint/type-check command:
+Local:
+```bash
+pip install -e .
 ```
-pre-commit run --all-files
+
+## Usage
+
+```python
+>>> import greetme
+>>> greetme.do_it("Mike")
+Hey, mike!
 ```
+
+## Contributing
+
+Feel free to add greetings in other languages.
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
